@@ -24,7 +24,7 @@ class Background:
         - Use self.poly2d.model['YFIT'] to access the estimated background.
         - Use self.poly2d.model['MASKFIT'] to access the final mask after iterations (with True for masked out data).
         Use method save(do_bkg,do_mask) to save outputs, given container.
-        - Set do_yfit = True for saving self.poly2d.model['YFIT'] as ./savefolder/saveprefix_cutbkg.fits.
+        - Set do_bkg = True for saving self.poly2d.model['YFIT'] as ./savefolder/saveprefix_cutbkg.fits.
         - Set do_mask = True for saving self.poly2d.model['MASKFIT'] as ./savefolder/saveprefix_maskfit.fits.
         """
         self.gdata = gdata
@@ -51,7 +51,7 @@ class Background:
     ##########
     ##########
     ##########
-    def save(self,do_yfit=True,do_maskfit=True):
+    def save(self,do_bkg=True,do_maskfit=True):
         if self.container is None:
             raise ValueError('container must be specified to save')
         saveprefix = self.container.data['saveprefix']
