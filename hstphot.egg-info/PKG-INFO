@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: hstphot
-Version: 1.2.0
+Version: 1.3.0
 Summary: UNKNOWN
 Home-page: https://github.com/bkornpob/hstphot.git
 Author: Kornpob Bhirombhakdi
@@ -9,6 +9,9 @@ License: UNKNOWN
 Description: # HSTPHOT
         
         Webpage: ???
+        
+        ## 1.3.0
+        - show_sources.py
         
         ## 1.2.0
         - read_ds9region.py

@@ -11,6 +11,7 @@ hstphot/phot2abmag.py
 hstphot/photapcorr.py
 hstphot/read_ds9region.py
 hstphot/show_source.py
+hstphot/show_sources.py
 hstphot/show_sum1d.py
 hstphot/to_fullframe.py
 hstphot.egg-info/PKG-INFO

@@ -2,6 +2,9 @@
 
 Webpage: ???
 
+## 1.3.0
+- show_sources.py
+
 ## 1.2.0
 - read_ds9region.py
 - apphot.py
